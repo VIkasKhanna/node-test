@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  script(src='/javascripts/helloworld.js')  
+  h1= title
+  p Welcome to #{title} from B -V
+  div(ng-app='helloworldapp')
+   div(ng-view) 
