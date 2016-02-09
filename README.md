@@ -54,10 +54,10 @@ npm install karma --save-dev
 # Install plugins that your project needs:
 npm install karma-jasmine karma-chrome-launcher --save-dev
 
-## Open a new command promprt and run, this will run KArma 
+## Open a new command promprt and run, this will run Karma 
 >.\node_modules\.bin\karma start
 
-## install karma-cli as karma sucks use global scope
+## install karma-cli as karma -- use global scope
 npm install  karma-cli -g
 ## Run Karma 
 karma start
